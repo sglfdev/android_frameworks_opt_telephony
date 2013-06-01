@@ -286,6 +286,8 @@ public class SmsUsageMonitorShortCodeTest extends AndroidTestCase {
             new ShortCodeTest("kg", "4449", CATEGORY_PREMIUM_SHORT_CODE),
             new ShortCodeTest("kg", "98765", CATEGORY_NOT_SHORT_CODE),
 
+            new ShortCodeTest("kr", "112", CATEGORY_NOT_SHORT_CODE), // by Cholokei
+
             new ShortCodeTest("kz", "112", CATEGORY_NOT_SHORT_CODE),
             new ShortCodeTest("kz", "5432", CATEGORY_POSSIBLE_PREMIUM_SHORT_CODE),
             new ShortCodeTest("kz", "9194", CATEGORY_PREMIUM_SHORT_CODE),
